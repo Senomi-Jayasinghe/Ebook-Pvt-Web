@@ -1,0 +1,609 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\admin\\scanqrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\admin\\scanqrcode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\admin\\booksbytitle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\admin\\booksbytitle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\adminbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\adminbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\admin\\admindetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\admin\\admindetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\account\\verifycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\account\\verifycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\setnewpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\setnewpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\models\\customerloginmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\models\\customerloginmodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\account\\customerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\account\\customerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\admin\\editadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\admin\\editadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\admin\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\admin\\createadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\order\\editorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\order\\editorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\customer\\editcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\customer\\editcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\customer\\customerlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\book\\browsedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\book\\browsedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\book\\deletebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\book\\deletebook.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\book\\editbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\book\\editbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\book\\bookdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\book\\bookdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|c:\\users\\nimsha\\documents\\github\\e-book-pvt-website\\e-book-pvt-website\\e-book-pvt-website\\views\\book\\books.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4E951AF9-5EE7-4A5C-B995-0BDE20833148}|E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj|solutionrelative:e-book-pvt-website\\views\\book\\books.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 189,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksByTitle.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\BooksByTitle.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Admin\\BooksByTitle.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\BooksByTitle.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Admin\\BooksByTitle.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T18:11:24.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminBookViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\AdminBookViewModel.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\AdminBookViewModel.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\AdminBookViewModel.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\AdminBookViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:26:32.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAA8BAAAAAAAAAAAAwNcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:49:15.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\Book.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\Book.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T16:19:00.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScanQRCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\ScanQRCode.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Admin\\ScanQRCode.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\ScanQRCode.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Admin\\ScanQRCode.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAADwv3UAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T14:28:36.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Program.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Program.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Program.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:23:59.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Admin\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Admin\\AdminDashboard.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADgAAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T17:23:46.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\AdminDetails.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Admin\\AdminDetails.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\AdminDetails.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Admin\\AdminDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T13:38:17.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VerifyCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Account\\VerifyCode.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Account\\VerifyCode.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Account\\VerifyCode.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Account\\VerifyCode.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T15:57:39.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T15:15:06.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T09:51:36.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\Admin.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:37:28.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAG4BAAAAAAAAAADwv3wBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:24:33.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T17:25:36.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Properties\\launchSettings.json",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-24T17:23:05.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SetNewPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\SetNewPasswordModel.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\SetNewPasswordModel.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\SetNewPasswordModel.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\SetNewPasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:55:21.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\Customer.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T17:17:42.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\ResetPasswordModel.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\ResetPasswordModel.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\ResetPasswordModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:41:02.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:36:33.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\appsettings.json",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\appsettings.json",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\appsettings.json",
+              "RelativeToolTip": "E-Book-Pvt-Website\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-24T16:41:31.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:05:11.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CustomerLoginModal.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\CustomerLoginModal.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Models\\CustomerLoginModal.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Models\\CustomerLoginModal.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Models\\CustomerLoginModal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T15:59:57.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Account\\CustomerLogin.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Account\\CustomerLogin.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Account\\CustomerLogin.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Account\\CustomerLogin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T17:26:14.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:24:33.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-20T17:25:40.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\CreateAdmin.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Admin\\CreateAdmin.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\CreateAdmin.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Admin\\CreateAdmin.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwCIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T16:50:48.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Order\\EditOrder.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Order\\EditOrder.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Order\\EditOrder.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Order\\EditOrder.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwCUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T16:48:52.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Customer\\EditCustomer.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Customer\\EditCustomer.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Customer\\EditCustomer.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Customer\\EditCustomer.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwCQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T16:43:41.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomerList.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Customer\\CustomerList.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Customer\\CustomerList.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Customer\\CustomerList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T16:43:40.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\EditAdmin.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Admin\\EditAdmin.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Admin\\EditAdmin.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Admin\\EditAdmin.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAIBJwCIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T16:43:36.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvx4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T15:06:58.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EditBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\EditBooks.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Book\\EditBooks.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\EditBooks.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Book\\EditBooks.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAIBJwDQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:40:24.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BrowseDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\BrowseDetails.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Book\\BrowseDetails.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\BrowseDetails.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Book\\BrowseDetails.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAIBJwGQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:35:00.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Books.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\Books.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Book\\Books.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\Books.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Book\\Books.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:33:39.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BookDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\BookDetails.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Book\\BookDetails.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\BookDetails.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Book\\BookDetails.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAIBJwDgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:31:44.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DeleteBook.cshtml",
+              "DocumentMoniker": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\DeleteBook.cshtml",
+              "RelativeDocumentMoniker": "E-Book-Pvt-Website\\Views\\Book\\DeleteBook.cshtml",
+              "ToolTip": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\Views\\Book\\DeleteBook.cshtml",
+              "RelativeToolTip": "E-Book-Pvt-Website\\Views\\Book\\DeleteBook.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAIBJwDAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T13:30:50.684Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<E_Book_Pvt_Website.Models.Customer>
+
+@{
+    ViewData["Title"] = "Cusomer List";
+}
+
+<h1>Customer List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.customer_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customer_phoneno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customer_address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.customer_email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customer_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customer_phoneno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customer_address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.customer_email)
+                </td>
+                <td>
+                    <a asp-action="EditCustomer" asp-route-id="@item.customer_id">Edit</a> |
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

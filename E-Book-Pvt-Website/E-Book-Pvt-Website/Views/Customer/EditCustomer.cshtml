@@ -1,0 +1,47 @@
+﻿@model E_Book_Pvt_Website.Models.Customer
+
+@{
+    ViewData["Title"] = "EditCustomer";
+}
+
+<h1>EditCustomer</h1>
+
+<h4>Customer</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditCustomer">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="customer_id"/>
+            <input type="hidden" asp-for="customer_password" />
+            <div class="form-group">
+                <label asp-for="customer_name" class="control-label"></label>
+                <input asp-for="customer_name" class="form-control" readonly/>
+                <span asp-validation-for="customer_name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="customer_phoneno" class="control-label"></label>
+                <input asp-for="customer_phoneno" class="form-control" />
+                <span asp-validation-for="customer_phoneno" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="customer_address" class="control-label"></label>
+                <textarea asp-for="customer_address" class="form-control"></textarea>
+                <span asp-validation-for="customer_address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="customer_email" class="control-label"></label>
+                <input asp-for="customer_email" class="form-control" readonly/>
+                <span asp-validation-for="customer_email" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="CustomerList">Back to Customer List</a>
+</div>
+

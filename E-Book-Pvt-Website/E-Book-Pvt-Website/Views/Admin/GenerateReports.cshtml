@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Generate Reports";
+}
+
+<h2>Generate Reports</h2>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Books Report</h5>
+                <p class="card-text">Generate an Excel report for all books.</p>
+                <a asp-action="GenerateBooksReport" class="btn btn-success">Generate</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Customers Report</h5>
+                <p class="card-text">Generate an Excel report for all customers.</p>
+                <a asp-action="GenerateCustomersReport" class="btn btn-success">Generate</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Orders Report</h5>
+                <p class="card-text">Generate an Excel report for all orders.</p>
+                <a asp-action="GenerateOrdersReport" class="btn btn-success">Generate</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center">
+            <div class="card-body">
+                <h5 class="card-title">Book Feedback Report</h5>
+                <p class="card-text">Generate an Excel report for all book feedback.</p>
+                <a asp-action="GenerateBookFeedbackReport" class="btn btn-success">Generate</a>
+            </div>
+        </div>
+    </div>
+</div>

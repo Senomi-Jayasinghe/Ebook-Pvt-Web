@@ -1,0 +1,53 @@
+﻿@model IEnumerable<E_Book_Pvt_Website.Models.Admin>
+
+@{
+    ViewData["Title"] = "AdminList";
+}
+
+<h1>Admin List</h1>
+
+<p>
+    <a asp-action="CreateAdmin">Add Admin</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.admin_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.admin_phoneno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.admin_email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.admin_password)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.admin_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.admin_phoneno)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.admin_email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.admin_password)
+            </td>
+            <td>
+                <a asp-action="EditAdmin" asp-route-id="@item.admin_id">Edit</a> |
+                <a asp-action="AdminDetails" asp-route-id="@item.admin_id">Details</a> |
+                <a asp-action="DeleteAdmin" asp-route-id="@item.admin_id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

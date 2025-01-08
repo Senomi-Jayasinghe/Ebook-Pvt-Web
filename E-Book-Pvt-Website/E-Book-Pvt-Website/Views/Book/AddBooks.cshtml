@@ -1,0 +1,72 @@
+﻿@model E_Book_Pvt_Website.Models.Book
+
+@{
+    ViewData["Title"] = "AddBooks";
+}
+
+<h1>Add Books</h1>
+<hr />
+<form asp-action="AddBooks" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="book_title" class="control-label">Title:</label>
+                <input asp-for="book_title" class="form-control" />
+                <span asp-validation-for="book_title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book_description" class="control-label">Description:</label>
+                <textarea asp-for="book_description" class="form-control"></textarea>
+                <span asp-validation-for="book_description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book_publisher" class="control-label">Publisher:</label>
+                <input asp-for="book_publisher" class="form-control" />
+                <span asp-validation-for="book_publisher" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book_price" class="control-label">Price:</label>
+                <input asp-for="book_price" class="form-control" />
+                <span asp-validation-for="book_price" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label asp-for="book_ISBN" class="control-label">ISBN:</label>
+                <input asp-for="book_ISBN" class="form-control" />
+                <span asp-validation-for="book_ISBN" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book_author_id" class="control-label">Author:</label>
+                <select asp-for="book_author_id" class="form-control" asp-items="ViewBag.AuthorList">
+                    <option value="">Select an Author</option>
+                </select>
+                <span asp-validation-for="book_author_id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book_quantity" class="control-label">Quantity:</label>
+                <input asp-for="book_quantity" class="form-control" type="number" />
+                <span asp-validation-for="book_quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book_category" class="control-label">Category:</label>
+                <select asp-for="book_category" class="form-control" asp-items="ViewBag.CategoryList">
+                    <option value="">Select an Category</option>
+                </select>
+                <span asp-validation-for="book_category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="book_image" class="control-label">Image:</label>
+                <input asp-for="book_image" name="bookImage" type="file" class="form-control" />
+                <span asp-validation-for="book_image" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+    <div>
+        <a asp-action="Books">Back to List</a>
+    </div>
+</form>

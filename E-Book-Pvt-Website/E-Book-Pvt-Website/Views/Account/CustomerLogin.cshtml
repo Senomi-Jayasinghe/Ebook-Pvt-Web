@@ -1,0 +1,32 @@
+﻿@model E_Book_Pvt_Website.Models.CustomerLoginModal
+
+@{
+    ViewData["Title"] = "CustomerLogin";
+}
+
+<div class="container d-flex align-items-center justify-content-between vh-100">
+    <!-- Form Section -->
+    <div class="form-section bg-white rounded-3 shadow-lg p-5" style="width: 45%;">
+        <h3 class="mb-4">Login</h3>
+        <form asp-action="CustomerLogin" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" required/>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" type="password" class="form-control" required/>
+                @* <button type="button" class="btn btn-link mt-2">Forgot Password?</button> *@
+                <a asp-controller="Account" asp-action="ResetPassword" class="btn btn-link mt-2">Forgot Password?</a>
+            </div>
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <button type="submit" class="btn btn-primary btn-block w-100">Login</button>
+            <p class="text-danger mt-3">Don't have an account yet? <a asp-controller="Account" asp-action="SignUp">Sign Up Here</a>.</p>
+        </form>
+    </div>
+
+    <!-- Image Section -->
+    <div class="image-section" style="width: 50%; text-align: center;">
+        <img src="~/Assets/BOOKS.jpg" asp-append-version="true" alt="Login Illustration" class="img-fluid rounded-3 shadow-lg" />
+    </div>
+</div>

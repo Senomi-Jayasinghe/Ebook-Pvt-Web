@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+<div class="row">
+    <div class="col-md-7">
+        <h4>Orders by Status</h4>
+        <canvas id="ordersPieChart"></canvas>
+    </div>
+    <div class="col-md-5">
+        <!-- Summary Cards -->
+        <div class="row">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Total Orders</h5>
+                    <p class="card-text">@ViewBag.TotalOrders</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Total Books</h5>
+                    <p class="card-text">@ViewBag.TotalBooks</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Total Revenue</h5>
+                    <p class="card-text">Rs. @ViewBag.TotalRevenue</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Data for the pie chart (already preprocessed in controller)
+            const statusLabels = @Html.Raw(ViewBag.StatusLabels);
+            const statusData = @Html.Raw(ViewBag.StatusData);
+
+            // Configure the pie chart
+            const ctx = document.getElementById('ordersPieChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: statusLabels,
+                    datasets: [{
+                        label: 'Number of Orders',
+                        data: statusData,
+                        backgroundColor: ['#007bff', '#ffc107', '#28a745', '#6c757d', '#dc3545'], // Colors for each status
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}

@@ -1,0 +1,39 @@
+﻿@model E_Book_Pvt_Website.Models.Order
+
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<h1>Edit Order</h1>
+
+<form asp-action="EditOrder" method="post">
+    <input type="hidden" asp-for="order_id" />  <!-- Hidden input for order_id -->
+
+    <div class="form-group">
+        <label for="order_date">Order Date:</label>
+        <p>@Model.order_date</p>
+    </div>
+    <div class="form-group">
+        <label for="order_price">Order Price:</label>
+        <p>@Model.order_price</p>
+    </div>
+    <div class="form-group">
+        <label for="order_address">Order Address:</label>
+        <input asp-for="order_address" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="order_phoneno">Order Phone Number:</label>
+        <input asp-for="order_phoneno" class="form-control" />
+    </div>
+
+    <!-- Dropdown to edit the order status -->
+    <div class="form-group">
+        <label for="order_status">Order Status:</label>
+        <select asp-for="order_status" class="form-control" asp-items="@(new SelectList(new[] { "Placed", "Processing", "Delivered", "Cancelled", "Closed" }, Model.order_status))">
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Save Changes</button>
+    <a href="@Url.Action("ViewOrders")" class="btn btn-secondary mt-2">Back to Orders List</a>
+</form>

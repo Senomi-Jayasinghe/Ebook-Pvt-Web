@@ -1,0 +1,117 @@
+﻿@model IEnumerable<E_Book_Pvt_Website.Models.Book>
+
+@{
+    ViewData["Title"] = "Scan QR Code and Search Books";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- QR Code Scanning Section -->
+<h3>Scan QR Code</h3>
+
+<!-- Video element for displaying the camera feed -->
+<div>
+    <video id="video" width="400" height="300" autoplay></video>
+    <button id="startScan" class="btn btn-success">Start Scan</button>
+</div>
+
+<!-- Hidden form to send scanned QR code data to the server -->
+<form asp-controller="Admin" asp-action="ScanQRCode" method="post" id="scanForm" style="display:none;">
+    <input type="hidden" name="qrCodeData" id="qrCodeData" />
+</form>
+
+<!-- Load the jsQR library -->
+<script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+
+<script>
+    const videoElement = document.getElementById('video');
+    const scanForm = document.getElementById('scanForm');
+    const qrCodeDataInput = document.getElementById('qrCodeData');
+    const startScanButton = document.getElementById('startScan');
+
+    // Initialize video stream
+    const initCamera = async () => {
+        try {
+            const stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
+            videoElement.srcObject = stream;
+        } catch (error) {
+            console.error('Error accessing the camera:', error);
+        }
+    };
+
+    // Start scanning when the button is clicked
+    startScanButton.addEventListener('click', () => {
+        initCamera();
+        scanQRCode();
+    });
+
+    // Scan QR code from the video feed
+    const scanQRCode = () => {
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+
+        const scan = () => {
+            if (videoElement.readyState === videoElement.HAVE_ENOUGH_DATA) {
+                canvas.height = videoElement.videoHeight;
+                canvas.width = videoElement.videoWidth;
+                context.drawImage(videoElement, 0, 0, canvas.width, canvas.height);
+
+                const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+                const code = jsQR(imageData.data, canvas.width, canvas.height);
+
+                if (code) {
+                    alert(`QR Code Scanned: ${code.data}`);
+                    qrCodeDataInput.value = code.data;  // Assuming the QR code contains the book title
+                    scanForm.submit();
+                }
+            }
+            requestAnimationFrame(scan);
+        };
+
+        scan();
+    };
+</script>
+
+<!-- Book List Section -->
+@if (ViewData["NoBooksFound"] != null)
+{
+    <div class="alert alert-warning">
+        @ViewData["NoBooksFound"]
+    </div>
+}
+
+@if (ViewData["Books"] != null)
+{
+    <h3>Books Found:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author ID</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Publisher</th>
+                <th>Price</th>
+                <th>ISBN</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in (IEnumerable<E_Book_Pvt_Website.Models.Book>)ViewData["Books"])
+            {
+                <tr>
+                    <td>@book.book_id</td>
+                    <td>@book.book_title</td>
+                    <td>@book.book_author_id</td>
+                    <td>@book.book_category</td>
+                    <td>@book.book_description</td>
+                    <td>@book.book_publisher</td>
+                    <td>@book.book_price</td>
+                    <td>@book.book_ISBN</td>
+                    <td>@book.book_quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
