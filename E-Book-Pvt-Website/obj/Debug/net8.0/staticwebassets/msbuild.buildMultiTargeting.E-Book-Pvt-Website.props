@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\E-Book-Pvt-Website.props" />
+</Project>

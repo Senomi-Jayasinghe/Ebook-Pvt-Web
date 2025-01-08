@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Verify Code";
+}
+
+<div class="container vh-100 d-flex justify-content-center align-items-center">
+    <div class="bg-white rounded-3 shadow-lg p-5" style="width: 40%;">
+        <h3 class="mb-4">Verify Code</h3>
+        <form asp-action="VerifyCode" method="post">
+            <input type="hidden" name="email" value="@TempData["Email"]" />
+            <div class="form-group mb-3">
+                <label for="verificationCode" class="form-label">Verification Code</label>
+                <input type="text" name="verificationCode" id="verificationCode" class="form-control" required />
+            </div>
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <p class="text-danger">@ViewBag.ErrorMessage</p>
+            }
+            <button type="submit" class="btn btn-primary btn-block w-100">Verify</button>
+        </form>
+    </div>
+</div>

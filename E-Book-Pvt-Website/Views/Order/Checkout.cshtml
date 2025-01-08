@@ -1,0 +1,39 @@
+﻿@model OrderViewModel
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<h2>Checkout</h2>
+
+<p>Total Price: <b>Rs. @Model.TotalPrice</b></p>
+
+<form asp-action="PlaceOrder" method="post">
+    <input type="hidden" name="TotalPrice" value="@Model.TotalPrice" />
+
+    <div class="form-group">
+        <label for="OrderDate">Order Date</label>
+        <input type="date" name="OrderDate" id="OrderDate" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="OrderAddress">Order Address</label>
+        <textarea type="text" name="OrderAddress" class="form-control" required></textarea>
+    </div>
+
+    <div class="form-group">
+        <label for="OrderPhoneNo">Order Phone Number</label>
+        <input type="text" name="OrderPhoneNo" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Place Order</button>
+</form>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get today's date in the format YYYY-MM-DD
+        const today = new Date().toISOString().split('T')[0];
+        // Set the value of the date input to today's date
+        document.getElementById("OrderDate").value = today;
+    });
+</script>

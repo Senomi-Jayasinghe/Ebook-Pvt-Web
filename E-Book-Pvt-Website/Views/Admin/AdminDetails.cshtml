@@ -1,0 +1,41 @@
+﻿@model E_Book_Pvt_Website.Models.Admin
+
+@{
+    ViewData["Title"] = "AdminDetails";
+}
+
+<h1>Admin Details</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.admin_name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.admin_name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.admin_phoneno)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.admin_phoneno)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.admin_email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.admin_email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.admin_password)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.admin_password)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="EditAdmin" asp-route-id="@Model?.admin_id">Edit</a> |
+    <a asp-action="AdminList">Back to Admin List</a>
+</div>

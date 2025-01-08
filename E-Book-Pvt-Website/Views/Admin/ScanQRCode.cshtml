@@ -1,0 +1,172 @@
+﻿@model IEnumerable<E_Book_Pvt_Website.Models.Book>
+
+@{
+    ViewData["Title"] = "Scan QR Code and Search Books";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- QR Code Scanning Section -->
+<h3>Scan QR Code</h3>
+
+<!-- Video element for displaying the camera feed -->
+<div>
+    <video id="video" width="400" height="300" autoplay></video>
+    <button id="startScan" class="btn btn-success">Start Scan</button>
+    <button id="stopScan" class="btn btn-danger" style="display:none;">Stop Scan</button>
+</div>
+
+<!-- Hidden form to send scanned QR code data to the server -->
+<form asp-controller="Admin" asp-action="SearchBooks" method="post" id="scanForm" style="display:none;">
+    <input type="hidden" name="qrCodeData" id="qrCodeData" />
+</form>
+
+<!-- Search Section -->
+<div class="mt-3">
+    <h4>Search for a Book</h4>
+    <input type="text" id="searchTextBox" class="form-control" placeholder="Enter book title or ID" />
+    <button id="searchButton" class="btn btn-primary mt-2">Search</button>
+</div>
+
+<!-- Table to display book details -->
+<div id="searchResults">
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Book Title</th>
+                    <th>Book Description</th>
+                    <th>Book Publisher</th>
+                    <th>Book Price</th>
+                    <th>Book ISBN</th>
+                    <th>Book Author ID</th>
+                    <th>Book Image</th>
+                    <th>Book Quantity</th>
+                    <th>Book Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                    <tr>
+                        <td>@book.book_id</td>
+                        <td>@book.book_title</td>
+                        <td>@book.book_description</td>
+                        <td>@book.book_publisher</td>
+                        <td>@book.book_price</td>
+                        <td>@book.book_ISBN</td>
+                        <td>@book.book_author_id</td>
+                        <td><img src="@book.book_image" alt="Book Image" width="100" /></td>
+                        <td>@book.book_quantity</td>
+                        <td>@book.book_category</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No books found matching your search criteria.</p>
+    }
+</div>
+
+<!-- Message display area -->
+<div id="message" class="mt-2" style="color: green;"></div>
+
+<!-- Load the jsQR library -->
+<script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    const videoElement = document.getElementById('video');
+    const scanForm = document.getElementById('scanForm');
+    const qrCodeDataInput = document.getElementById('qrCodeData');
+    const startScanButton = document.getElementById('startScan');
+    const stopScanButton = document.getElementById('stopScan');
+    const searchTextBox = document.getElementById('searchTextBox');
+    const searchButton = document.getElementById('searchButton');
+    const messageDisplay = document.getElementById('message');
+    let currentStream = null;
+
+    // Initialize video stream
+    const initCamera = async () => {
+        try {
+            currentStream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
+            videoElement.srcObject = currentStream;
+            startScanButton.disabled = true;  // Disable the Start Scan button while scanning
+            stopScanButton.style.display = 'inline-block';  // Show the Stop Scan button
+        } catch (error) {
+            console.error('Error accessing the camera:', error);
+        }
+    };
+
+    // Stop the camera feed
+    const stopCamera = () => {
+        if (currentStream) {
+            const tracks = currentStream.getTracks();
+            tracks.forEach(track => track.stop());  // Stop all tracks (video and audio)
+            videoElement.srcObject = null;  // Remove the video feed
+            startScanButton.disabled = false;  // Enable the Start Scan button again
+            stopScanButton.style.display = 'none';  // Hide the Stop Scan button
+        }
+    };
+
+    // Start scanning when the button is clicked
+    startScanButton.addEventListener('click', () => {
+        initCamera();
+        scanQRCode();
+    });
+
+    // Stop scanning when the button is clicked
+    stopScanButton.addEventListener('click', () => {
+        stopCamera();
+    });
+
+    // Scan QR code from the video feed
+    const scanQRCode = () => {
+        const canvas = document.createElement('canvas');
+        const context = canvas.getContext('2d');
+
+        const scan = () => {
+            if (videoElement.readyState === videoElement.HAVE_ENOUGH_DATA) {
+                canvas.height = videoElement.videoHeight;
+                canvas.width = videoElement.videoWidth;
+                context.drawImage(videoElement, 0, 0, canvas.width, canvas.height);
+
+                const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+                const code = jsQR(imageData.data, canvas.width, canvas.height);
+
+                if (code) {
+                    messageDisplay.textContent = `QR Code Scanned: ${code.data}`;
+                    qrCodeDataInput.value = code.data;  // Store the QR code data in the hidden field
+                    searchTextBox.value = code.data;  // Set the scanned QR code data in the text box
+                }
+            }
+            requestAnimationFrame(scan);
+        };
+
+        scan();
+    };
+
+    // Search functionality using AJAX
+    $('#searchButton').click(function () {
+        const searchQuery = $('#searchTextBox').val();
+
+        $.ajax({
+            url: '@Url.Action("SearchBooks", "Admin")',
+            type: 'POST',
+            data: { searchQuery: searchQuery },
+            success: function (data) {
+                $('#searchResults').html(data);  // Update the search results div with the returned partial view
+            },
+            error: function (xhr, status, error) {
+                console.error('Error:', error);
+                $('#message').text('An error occurred while searching.');
+            }
+        });
+    });
+
+</script>

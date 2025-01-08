@@ -1,0 +1,81 @@
+﻿@model IEnumerable<E_Book_Pvt_Website.Models.Order>
+
+@{
+    ViewData["Title"] = "ViewOrders";
+    int? roleId = Context.Session.GetInt32("role_id");
+}
+
+<h1>View Orders</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            @if (roleId == 2)
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.order_customer_id)
+                </th>
+            }
+            <th>
+                @Html.DisplayNameFor(model => model.order_price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.order_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.order_address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.order_phoneno)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.order_status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @if (roleId == 2)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.order_customer_id)
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.order_price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order_date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order_address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order_phoneno)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.order_status)
+                </td>
+                <td>
+                    @* Show Edit link only if role_id is 2 *@
+                    @if (roleId == 2)
+                    {
+                        <a asp-action="EditOrder" asp-route-orderId="@item.order_id">Edit</a>
+                    }
+
+                    @* Show Cancel link only if role_id is 1 *@
+                    @if (roleId == 1)
+                    {
+                        <a asp-action="CancelOrder" asp-route-orderId="@item.order_id">Cancel</a>
+                    }
+
+                    @* Show Details link for both roles *@
+                    <a asp-action="OrderDetails" asp-route-orderId="@item.order_id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

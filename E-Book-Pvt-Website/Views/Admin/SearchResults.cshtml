@@ -1,0 +1,47 @@
+﻿@model IEnumerable<E_Book_Pvt_Website.Models.Book>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Book ID</th>
+                <th>Book Title</th>
+                <th>Book Description</th>
+                <th>Book Publisher</th>
+                <th>Book Price</th>
+                <th>Book ISBN</th>
+                <th>Book Author ID</th>
+                <th>Book Image</th>
+                <th>Book Quantity</th>
+                <th>Book Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.book_id</td>
+                    <td>@book.book_title</td>
+                    <td>@book.book_description</td>
+                    <td>@book.book_publisher</td>
+                    <td>@book.book_price</td>
+                    <td>@book.book_ISBN</td>
+                    <td>@book.book_author_id</td>
+                    <td>
+                        @if (book.book_image != null)
+                        {
+                            <img src="@Url.Action("GetBookImage", "Admin", new { bookId = book.book_id })" alt="Book Image" width="100" />
+                        }
+                    </td>
+                    <td>@book.book_quantity</td>
+                    <td>@book.book_category</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No books found matching your search criteria.</p>
+}
