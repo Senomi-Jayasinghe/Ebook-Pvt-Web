@@ -17,171 +17,171 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = E_Book_Pvt_Website
 build_property.RootNamespace = E_Book_Pvt_Website
-build_property.ProjectDir = C:\Users\nimsha\Documents\GitHub\E-Book-Pvt-Website\E-Book-Pvt-Website\E-Book-Pvt-Website\
+build_property.ProjectDir = D:\Ebook-Pvt-Web\E-Book-Pvt-Website\E-Book-Pvt-Website\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nimsha\Documents\GitHub\E-Book-Pvt-Website\E-Book-Pvt-Website\E-Book-Pvt-Website
+build_property.MSBuildProjectDirectory = D:\Ebook-Pvt-Web\E-Book-Pvt-Website\E-Book-Pvt-Website
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/AdminLogin.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/AdminLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBZG1pbkxvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/CustomerLogin.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/CustomerLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDdXN0b21lckxvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/ResetPassword.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/SetNewPassword.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/SetNewPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZXROZXdQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/SignUp.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/VerifyCode.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Account/VerifyCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlDb2RlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/AdminDashboard.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/AdminDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/AdminDetails.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/AdminDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/AdminList.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/AdminList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5MaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/BooksByTitle.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/BooksByTitle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQm9va3NCeVRpdGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/CreateAdmin.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/CreateAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/DeleteAdmin.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/DeleteAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/EditAdmin.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/EditAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEFkbWluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/GenerateQRCode.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/GenerateQRCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2VuZXJhdGVRUkNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/GenerateReports.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/GenerateReports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2VuZXJhdGVSZXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/ScannedBookDetails.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/ScannedBookDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2Nhbm5lZEJvb2tEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/ScanQRCode.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Admin/ScanQRCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2NhblFSQ29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/AddBooks.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/AddBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGRCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/BookDetails.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/BookDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/Books.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/Books.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/BrowseBooks.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/BrowseBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCcm93c2VCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/BrowseDetails.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/BrowseDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xCcm93c2VEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/DeleteBook.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/DeleteBook.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xEZWxldGVCb29rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/EditBooks.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/EditBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xFZGl0Qm9va3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/ShoppingCart.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/ShoppingCart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xTaG9wcGluZ0NhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Customer/CustomerList.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Customer/CustomerList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Customer/EditCustomer.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Customer/EditCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRWRpdEN1c3RvbWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Home/Index.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Home/Privacy.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/CancelOrder.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/CancelOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2FuY2VsT3JkZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/Checkout.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/Checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/EditOrder.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/EditOrder.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRWRpdE9yZGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/OrderConfirmation.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/OrderConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/OrderDetails.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/OrderDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/ViewOrders.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Order/ViewOrders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcVmlld09yZGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Shared/Error.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/_ViewImports.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/_ViewStart.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nimsha/Documents/GitHub/E-Book-Pvt-Website/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Shared/_Layout.cshtml]
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n9o7l43t2z

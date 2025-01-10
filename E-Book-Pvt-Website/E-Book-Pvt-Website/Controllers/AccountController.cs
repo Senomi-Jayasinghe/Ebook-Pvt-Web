@@ -497,5 +497,14 @@ namespace E_Book_Pvt_Website.Controllers
             return RedirectToAction("CustomerLogin"); // Redirect to login page
         }
 
+        public IActionResult Logout()
+        {
+            // Clear the session
+            HttpContext.Session.Clear();
+
+            // Redirect to the login page (or any other page)
+            return RedirectToAction("BrowseBooks", "Book");
+        }
+
     }
 }

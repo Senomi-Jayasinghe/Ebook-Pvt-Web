@@ -12227,24 +12227,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nimsha\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj",
+      "projectUniqueName": "D:\\Ebook-Pvt-Web\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj",
       "projectName": "E-Book-Pvt-Website",
-      "projectPath": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj",
-      "packagesPath": "C:\\Users\\nimsha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nimsha\\Documents\\GitHub\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\obj\\",
+      "projectPath": "D:\\Ebook-Pvt-Web\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\E-Book-Pvt-Website.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Ebook-Pvt-Web\\E-Book-Pvt-Website\\E-Book-Pvt-Website\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nimsha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12252,7 +12247,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12330,7 +12324,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
