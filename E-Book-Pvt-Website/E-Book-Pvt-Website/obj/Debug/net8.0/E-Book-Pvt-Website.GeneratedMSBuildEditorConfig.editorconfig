@@ -94,6 +94,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2NhblFSQ29kZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Author/AuthorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEF1dGhvckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Author/CreateAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXENyZWF0ZUF1dGhvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Ebook-Pvt-Web/E-Book-Pvt-Website/E-Book-Pvt-Website/Views/Book/AddBooks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xBZGRCb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

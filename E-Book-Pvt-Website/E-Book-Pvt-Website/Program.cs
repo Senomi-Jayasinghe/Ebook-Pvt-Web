@@ -58,6 +58,6 @@ app.UseSession();  // Ensure session is used after authentication and authorizat
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Account}/{action=CustomerLogin}/{id?}");
+    pattern: "{controller=Book}/{action=BrowseBooks}/{id?}");
 
 app.Run();

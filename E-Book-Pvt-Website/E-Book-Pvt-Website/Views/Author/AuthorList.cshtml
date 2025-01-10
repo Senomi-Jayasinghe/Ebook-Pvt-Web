@@ -1,0 +1,44 @@
+﻿@model IEnumerable<E_Book_Pvt_Website.Models.Author>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1>Authors</h1>
+
+<p>
+    <a asp-action="CreateAuthor">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+
+            <th>
+                Name
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.author_id)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.author_name)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.author_id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.author_id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.author_id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
