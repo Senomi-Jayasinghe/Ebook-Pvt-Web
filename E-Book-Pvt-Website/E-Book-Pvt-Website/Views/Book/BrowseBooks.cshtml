@@ -10,20 +10,26 @@
         <!-- Search by Title Input -->
         <div class="row gy-2 gx-3 align-items-center mb-3">
             <div class="col-auto">
-
                 <input type="text" name="searchTitle" class="form-control" placeholder="Search by Title" value="@ViewBag.SearchTitle" />
             </div>
 
             <!-- Category Dropdown -->
             <div class="col-auto">
-                <select name="categoryId" class="form-control" asp-items="ViewBag.CategoryList">
+                <select name="category" class="form-control" asp-items="ViewBag.CategoryList">
                     <option value="">Select a Category</option>
                 </select>
             </div>
 
+            <!-- Author Dropdown -->
             <div class="col-auto">
-                <select class="form-control">
+                <select name="authorId" class="form-control">
                     <option value="">Select Author</option>
+                    @foreach (var author in ViewBag.AuthorNames)
+                    {
+                        <option value="@author.Key">
+                            @author.Value
+                        </option>
+                    }
                 </select>
             </div>
 
@@ -31,7 +37,6 @@
             <div class="col-auto">
                 <button type="submit" class="btn btn-primary">Search</button>
             </div>
-
         </div>
     </form>
 

@@ -58,7 +58,8 @@ namespace E_Book_Pvt_Website.Controllers
                     var orderBook = new OrderBook
                     {
                         order_id = order.order_id,      // Use the generated Order ID
-                        book_id = cartItem.Book.book_id // Each book in the cart
+                        book_id = cartItem.Book.book_id, // Each book in the cart
+                        quantity = cartItem.Quantity,
                     };
 
                     _context.OrderBook.Add(orderBook);

@@ -196,7 +196,7 @@ namespace E_Book_Pvt_Website.Controllers
             return View(book);
         }
 
-        public async Task<IActionResult> BrowseBooks(string searchTitle, int? categoryId)
+        public async Task<IActionResult> BrowseBooks(string searchTitle, string category, int? authorId)
         {
             // Fetch and filter books
             var booksQuery = _context.Book.AsQueryable();
@@ -206,24 +206,33 @@ namespace E_Book_Pvt_Website.Controllers
                 booksQuery = booksQuery.Where(b => b.book_title.Contains(searchTitle));
             }
 
-            if (categoryId.HasValue)
+            if (!string.IsNullOrEmpty(category))
             {
-                booksQuery = booksQuery.Where(b => _context.BookCategory
-                    .Any(bc => bc.book_id == b.book_id && bc.category_id == categoryId));
+                booksQuery = booksQuery.Where(b => b.book_category == category);
+            }
+
+            if (authorId.HasValue)
+            {
+                booksQuery = booksQuery.Where(b => b.book_author_id == authorId.Value);
             }
 
             var books = await booksQuery.ToListAsync();
 
             // Pass current search values to ViewBag
             ViewBag.SearchTitle = searchTitle;
-            ViewBag.CategoryId = categoryId;
+            ViewBag.Category = category;
+            ViewBag.AuthorId = authorId;
 
-            // Fetch authors and categories
+            // Fetch authors
             var authors = await _context.Author.ToDictionaryAsync(a => a.author_id, a => a.author_name);
-            var categories = await _context.Category.ToListAsync();
-
             ViewBag.AuthorNames = authors;
-            ViewBag.CategoryList = new SelectList(categories, "category_id", "category_name");
+
+            // Fetch unique categories
+            var categories = await _context.Book
+                .Select(b => b.book_category)
+                .Distinct()
+                .ToListAsync();
+            ViewBag.CategoryList = new SelectList(categories);
 
             // Prepare image URLs in the ViewBag for each book
             ViewBag.ImageUrls = books.ToDictionary(
@@ -235,6 +244,7 @@ namespace E_Book_Pvt_Website.Controllers
 
             return View(books);
         }
+
 
         public async Task<IActionResult> BrowseDetails(int id)
         {
@@ -380,6 +390,11 @@ namespace E_Book_Pvt_Website.Controllers
                     if (cartItem.Quantity > 1)
                     {
                         cartItem.Quantity--;
+                    }
+                    else
+                    {
+                        // Remove the item from the cart
+                        cart.Remove(cartItem);
                     }
                 }
             }
