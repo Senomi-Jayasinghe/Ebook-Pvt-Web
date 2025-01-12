@@ -18,9 +18,6 @@ namespace E_Book_Pvt_Website.Controllers
             _userManager = userManager;
         }
 
-       
-
-
         [HttpGet]
         public IActionResult CustomerLogin()
         {
@@ -168,127 +165,6 @@ namespace E_Book_Pvt_Website.Controllers
             return View(loginModel);
         }
 
-
-
-        //    [HttpGet]
-        //    public IActionResult ResetPassword()
-        //    {
-        //        return View();
-        //    }
-
-
-        //    [HttpPost]
-        //    public async Task<IActionResult> ResetPassword(string email)
-        //    {
-        //        // Check if the email exists in the database
-        //        var user = await _userManager.FindByEmailAsync(email);
-        //        if (user == null)
-        //        {
-        //            // User not found
-        //            ViewBag.ErrorMessage = "User not available.";
-        //            return View();
-        //        }
-
-        //        // Generate a verification code
-        //        var verificationCode = new Random().Next(100000, 999999).ToString();
-
-        //        // Save the verification code to the database or cache (not shown here for simplicity)
-        //        // Example: user.VerificationCode = verificationCode;
-        //        // await _userManager.UpdateAsync(user);
-
-        //        // Send the verification code via email
-        //        try
-        //        {
-        //            var smtpClient = new SmtpClient("smtp.your-email-provider.com")
-        //            {
-        //                Port = 587,
-        //                Credentials = new System.Net.NetworkCredential("somanpower68@gmail.com", "qzxg auts fcit fjew"),
-        //                EnableSsl = true,
-        //            };
-
-        //            var mailMessage = new MailMessage
-        //            {
-        //                From = new MailAddress("somanpower68@gmail.com.com"),
-        //                Subject = "Password Reset Verification Code",
-        //                Body = $"Your verification code is: {verificationCode}",
-        //                IsBodyHtml = true,
-        //            };
-        //            mailMessage.To.Add(email);
-
-        //            await smtpClient.SendMailAsync(mailMessage);
-
-        //            // Redirect to the verification page with the email as a parameter
-        //            TempData["Email"] = email;
-        //            return RedirectToAction("VerifyCode");
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            ViewBag.ErrorMessage = "Failed to send verification email. Please try again.";
-        //            return View();
-        //        }
-        //    }
-
-        //    [HttpGet]
-        //    public IActionResult VerifyCode()
-        //    {
-        //        return View();
-        //    }
-
-        //    [HttpPost]
-        //    public async Task<IActionResult> VerifyCode(string email, string verificationCode)
-        //    {
-        //        // Check the verification code (example logic)
-        //        var user = await _userManager.FindByEmailAsync(email);
-        //        if (user == null || user.VerificationCode != verificationCode)
-        //        {
-        //            ViewBag.ErrorMessage = "Invalid verification code.";
-        //            return View();
-        //        }
-
-        //        // Redirect to reset password page
-        //        TempData["Email"] = email;
-        //        return RedirectToAction("SetNewPassword");
-        //    }
-
-        //    [HttpGet]
-        //    public IActionResult SetNewPassword()
-        //    {
-        //        return View();
-        //    }
-
-        //    [HttpPost]
-        //    public async Task<IActionResult> SetNewPassword(string email, string newPassword, string confirmPassword)
-        //    {
-        //        if (newPassword != confirmPassword)
-        //        {
-        //            ViewBag.ErrorMessage = "Passwords do not match.";
-        //            return View();
-        //        }
-
-        //        var user = await _userManager.FindByEmailAsync(email);
-        //        if (user == null)
-        //        {
-        //            ViewBag.ErrorMessage = "User not available.";
-        //            return View();
-        //        }
-
-        //        var resetToken = await _userManager.GeneratePasswordResetTokenAsync(user);
-        //        var result = await _userManager.ResetPasswordAsync(user, resetToken, newPassword);
-
-        //        if (result.Succeeded)
-        //        {
-        //            return RedirectToAction("CustomerLogin");
-        //        }
-
-        //        ViewBag.ErrorMessage = "Failed to reset password.";
-        //        return View();
-        //    }
-
-        //public IActionResult ResetPasswordConfirmation()
-        //    {
-        //        return View();
-        //    }
-
         private bool AuthenticateAdmin(string email, string password)
         {
             // Ensure email is not null or empty before querying
@@ -393,57 +269,6 @@ namespace E_Book_Pvt_Website.Controllers
 
             return RedirectToAction("SetNewPassword");
         }
-
-        //[HttpGet]
-        //public IActionResult SetNewPassword()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public async Task<IActionResult> SetNewPassword(string email, string newPassword, string confirmPassword)
-        //{
-        //    if (newPassword != confirmPassword)
-        //    {
-        //        ViewBag.ErrorMessage = "Passwords do not match.";
-        //        return View();
-        //    }
-
-        //    // Check if the email exists in the Customer or Admin table
-        //    var customer = await _context.Customer.FirstOrDefaultAsync(c => c.customer_email == email);
-        //    var admin = await _context.Admin.FirstOrDefaultAsync(a => a.admin_email == email);
-
-        //    if (customer == null && admin == null)
-        //    {
-        //        ViewBag.ErrorMessage = "User not available.";
-        //        return View();
-        //    }
-
-        //    // Handle password reset for Customer
-        //    if (customer != null)
-        //    {
-        //        // Update password for Customer (hash the password if needed)
-        //        customer.customer_password = newPassword; // Replace with hashed password logic
-        //        _context.Customer.Update(customer);
-        //        await _context.SaveChangesAsync();
-
-        //        return RedirectToAction("CustomerLogin");
-        //    }
-
-        //    // Handle password reset for Admin
-        //    if (admin != null)
-        //    {
-        //        // Update password for Admin (hash the password if needed)
-        //        admin.admin_password = newPassword; // Replace with hashed password logic
-        //        _context.Admin.Update(admin);
-        //        await _context.SaveChangesAsync();
-
-        //        return RedirectToAction("AdminLogin");
-        //    }
-
-        //    ViewBag.ErrorMessage = "Failed to reset password.";
-        //    return View();
-        //}
 
         public IActionResult SetNewPassword()
         {
